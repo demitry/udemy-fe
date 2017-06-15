@@ -6,13 +6,13 @@
           <a class="nav-item">MyCompany</a>
         </div>
 
-        <span class="nav-toggle">
+        <span class="nav-toggle" v-on:click="toggleNav" v-bind:class="{ 'is-active': isActive }">
           <span></span>
           <span></span>
           <span></span>
         </span>
 
-        <div class="nav-right nav-menu">
+        <div class="nav-right nav-menu" v-bind:class="{ 'is-active': isActive }">
           <!-- <router-link> — это компонент, используемый для создания ссылок в приложениях, 
             использующих клиентский роутинг. 
             Целевой путь указывается во входном параметре to. 
@@ -24,17 +24,17 @@
           <router-link to="/faq" class="nav-item r-item">Features</router-link>
           <router-link to="/faq" class="nav-item r-item">About</router-link>
           <router-link to="/faq" class="nav-item r-item">FAQ</router-link>
-        </div>
 
-        <div class="nav-item">
-          <p class="control">
-            <a class="button is-primary is-outlined">
-              <span class="icon">
-                <i class="fa fa-download"></i>
-              </span>
-              <span>Join Now</span>
-            </a>
-          </p>
+          <div class="nav-item">
+            <p class="control">
+              <a class="button is-primary is-outlined">
+                <span class="icon">
+                  <i class="fa fa-download"></i>
+                </span>
+                <span>Join Now</span>
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -44,7 +44,17 @@
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  data:function(){
+    return{
+      isActive: false
+    }
+  },
+  methods:{
+    toggleNav:function(){
+      this.isActive = !this.isActive;
+    }
+  }
 }
 </script>
 
@@ -68,4 +78,6 @@ a.r-item
     &:hover
       background-color: #F1F1F1
 
+.nav-toggle span
+  background-color: #C1C1C1  
 </style>
