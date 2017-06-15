@@ -54,3 +54,8 @@ d:\GIT\ddd\udemy\udemy-fe\vue (master)
 cd compare-vue\
 npm install
 npm run dev
+
+
+Load css framework bulma and save dependency
+
+npm install bulma --save
