@@ -13,6 +13,28 @@
         </div>
       </div>
     </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="columns pd is-desktop">
+          <div class="colunm is-1 has-text-centered">
+            <i class="fa fa-cog is-primary"></i>
+          </div>
+          <div class="colunm is-one-third-desktop">
+            <p class="title"><strong>We provide our clients with customized billing services, convenient support hours, and friendly, reliable, multilingual staff.</strong></p>
+          </div>
+          <div class="colunm">
+            <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns pd">
+        Columns
+      </div>
+
+    </section>
+
   </div>
 </template>
 
