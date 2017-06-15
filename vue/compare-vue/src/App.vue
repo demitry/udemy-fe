@@ -13,6 +13,13 @@
         </span>
 
         <div class="nav-right nav-menu">
+          <!-- <router-link> — это компонент, используемый для создания ссылок в приложениях, 
+            использующих клиентский роутинг. 
+            Целевой путь указывается во входном параметре to. 
+            По умолчанию используется тег <a> и параметр href, 
+              но это поведение можно изменить указанием входного параметра tag. 
+              Кроме того, для ссылки автоматически устанавливается CSS-класс 
+              при активации соответствующего пути -->
           <router-link to="/" class="nav-item r-item">Home</router-link>
           <router-link to="/faq" class="nav-item r-item">Features</router-link>
           <router-link to="/faq" class="nav-item r-item">About</router-link>
@@ -45,12 +52,20 @@ export default {
 @import '../node_modules/bulma/bulma.sass'
 @import 'mq'
 
-#app 
-  font-family: 'Avenir', Helvetica, Arial, sans-serif
-  -webkit-font-smoothing: antialiased
-  -moz-osx-font-smoothing: grayscale
-  text-align: center
-  color: #2c3e50
-  margin-top: 60px
+.nav
+  background-color: #383838
+  a:hover
+    color:grey
+
+.nav-left a
+  color: #fff
+  font-weight: bold
+a.r-item
+  color: #C1C1C1
+  padding: 0.5rem 1.75rem
+  +mobile
+    color:grey
+    &:hover
+      background-color: #F1F1F1
 
 </style>
