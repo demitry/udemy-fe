@@ -30,7 +30,32 @@
       </div>
 
       <div class="columns pd">
-        Columns
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <p class="title">"A happy life is one which is in accordance with its own nature."</p>
+              <p class="subtitle"> -  Lucius Annaeus Seneca</p>
+            </div>
+          </div>
+        </div> 
+        <div class="column"> 
+          <div class="card">
+            <div class="card-content">
+              <p class="title">"Luck is a matter of preparation meeting opportunity."</p>
+              <p class="subtitle"> -  Lucius Annaeus Seneca</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <p class="title">"We are more often frightened than hurt; and we suffer more from imagination than from reality."</p>
+              <p class="subtitle"> -  Lucius Annaeus Seneca</p>
+            </div>
+          </div>
+        </div>  
+
       </div>
 
     </section>
@@ -69,4 +94,15 @@ export default {
 
   h2
     margin: 1.5rem 0 2rem 0 !important
+
+.fa-cog
+  font-size: 40px
+
+#learn
+  +desktop
+    margin-bottom: 2rem
+
+.pd
+  +tablet
+    padding: 2em 0
 </style>
