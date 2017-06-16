@@ -39,7 +39,7 @@ d:\GIT\ddd\udemy\udemy-fe\vue (master)
 ? Setup unit tests with Karma + Mocha? No                                   
 ? Setup e2e tests with Nightwatch? No                                       
                                                                             
-   vue-cli · Generated "compare-vue".                                       
+   vue-cli ï¿½ Generated "compare-vue".                                       
                                                                             
    To get started:                                                          
                                                                             
@@ -59,3 +59,5 @@ npm run dev
 Load css framework bulma and save dependency
 
 npm install bulma --save
+
+npm install axios --save
