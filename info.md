@@ -74,3 +74,13 @@ npm start
 
 <div className="App">
 className, not class
+
+npm install bulma --save
+
+https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc
+
+https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+
+npm install --save-dev npm-run-all
+
+npm install node-sass-chokidar --save-dev
