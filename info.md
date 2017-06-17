@@ -84,3 +84,5 @@ https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
 npm install --save-dev npm-run-all
 
 npm install node-sass-chokidar --save-dev
+
+npm install react-router-dom --save
