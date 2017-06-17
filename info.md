@@ -72,3 +72,5 @@ create-react-app compare-react
 cd compare-react
 npm start
 
+<div className="App">
+className, not class
