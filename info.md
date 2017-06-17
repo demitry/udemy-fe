@@ -5,6 +5,8 @@ https://www.udemy.com/react-vs-angular-vs-vuejs-by-example/
 npm install -g npm
 npm install -g npm
 
+# Vue
+
 npm install vue
 npm install --global vue-cli
 
@@ -61,3 +63,12 @@ Load css framework bulma and save dependency
 npm install bulma --save
 
 npm install axios --save
+
+# React JS
+
+
+npm install -g create-react-app
+create-react-app compare-react
+cd compare-react
+npm start
+
